@@ -9,7 +9,7 @@
     $contrasena = $usuario . $apellido;  
     
     $to = $correo;
-    $subject = "Credenciales para tu cuenta.";
+    $subject = "Credenciales para tu cuenta en BarberShop.";
     $message = "Usuario: " . $usuario . "\nContraseña: " . $contrasena;
     $headers = 'From: kevinyahirt@gmail.com'."\r\n".
     'Reply-To: kevinyahirt@gmail.com';
